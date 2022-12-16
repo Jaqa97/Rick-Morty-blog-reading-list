@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/discover.css"
 
 
 export default function Carta() {
   return (
-    <div className="card text-bg-dark">
+    <div className="carta card text-bg-dark">
       <img
         src="https://elvertederodeideas.files.wordpress.com/2018/05/total-rickall.png"
         className="card-img"

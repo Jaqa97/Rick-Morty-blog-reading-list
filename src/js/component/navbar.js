@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark rounded border border-3 py-3">
+    <nav className="navbar fixed-top navbar-expand-lg bg-dark rounded border border-3 py-3">
       <div className="container-fluid">
-      <Link to="/">
-        <a className="navbar-brand text-light" href="#">
-          Rick & Morty
-        </a>
+        <Link to="/">
+          <a className="navbar-brand text-light" href="#">
+            Rick & Morty
+          </a>
         </Link>
         <button
           className="navbar-toggler"
@@ -24,34 +24,26 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item text-light">
+              <Link to="/personajes">
+                <a
+                  className="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                >
+                  Characters
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item text-light">
               <Link to="/discover">
                 <a
                   className="nav-link active text-light"
                   aria-current="page"
                   href="#"
                 >
-                  Discover
+                  Locations
                 </a>
               </Link>
-            
-            </li>
-            <li className="nav-item text-light">
-              <a
-                className="nav-link active text-light"
-                aria-current="page"
-                href="#"
-              >
-                Characters
-              </a>
-            </li>
-            <li className="nav-item text-light">
-              <a
-                className="nav-link active text-light"
-                aria-current="page"
-                href="#"
-              >
-                Locations
-              </a>
             </li>
             <li className="nav-item text-light">
               <a
