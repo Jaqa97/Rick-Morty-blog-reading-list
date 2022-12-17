@@ -7,7 +7,7 @@ export default function Jumbotron() {
       <div className="my-5 py-2">
         <img
           src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/08/Rick--Morty-Season-6EWKSF-feature.jpg"
-          classNameName="card-img-top"
+          className="card-img-top"
           alt="..."
         />
         <Link to="/personajes">

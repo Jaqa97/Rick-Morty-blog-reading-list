@@ -55,6 +55,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				//reset the global store
 				setStore({ demo: demo });
+			},
+			testGetStore: ()=>{
+				console.log(getStore());
+			},
+			testGetActions: ()=>{
+				console.log(getActions());
 			}
 		}
 	};

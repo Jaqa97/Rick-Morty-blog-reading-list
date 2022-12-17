@@ -16,7 +16,7 @@ export const Personajes = () =>{
         {store.personajes.map((elm, index)=>{
             return <Card titulo={elm.name} dimension={elm.status} type={elm.species} foto="https://assets.stickpng.com/thumbs/58f37720a4fa116215a9240f.png" />
         })}
-        <Card/>
+        
     </div>
     
 </div>

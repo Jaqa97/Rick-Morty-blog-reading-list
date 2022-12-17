@@ -9,7 +9,10 @@ export default function Card({titulo, ruta, type, dimension, foto}){
       <h5 className="card-title">{titulo}</h5>
       <p className="card-text">{type}</p>
       <p className="card-text">{dimension}</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
-    </div>
+      <div className='container-fluid'>
+        <a href="#" className="btn btn-primary me-5">Go somewhere</a>
+        <a href="#" className="btn btn-primary ms-3"><i class="fas fa-heart"></i></a>
+      </div>
+  </div>
   </div>
 }

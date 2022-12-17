@@ -21,7 +21,7 @@ export default function Carta() {
         <Link to="/discover/characters/:id">
           <button
             type="button"
-            class="btn btn-outline-primary bg-success text-white justify-content-center border border-4 border-dark mt-3 me-5 ms-1 "
+            className="btn btn-outline-primary bg-success text-white justify-content-center border border-4 border-dark mt-3 me-5 ms-1 "
           >
             Discover all characters
           </button>

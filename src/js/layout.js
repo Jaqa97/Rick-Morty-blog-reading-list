@@ -11,6 +11,8 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { Discover } from "./views/discover";
 import { Personajes } from "./views/personajes";
+import Personajesid from "./views/personajesid";
+import Locationsid from "./views/locationsid";
 
 //create your first component
 const Layout = () => {
@@ -27,8 +29,9 @@ const Layout = () => {
 						<Route path="/" element={<Home />} />
 						<Route path="/discover" element={<Discover />} />
 						<Route path="/personajes" element={<Personajes />} />
-						<Route path="/discover/characters/:id" element={<Discover />} />
-						<Route path="/discover/locations/:id" element={<Discover />} />
+						<Route path="/personajesid" element={<Personajesid/>}/>
+						<Route path="/locationsid" element={<Locationsid/>}/>
+					
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/single/:theid" element={<Single />} />
 						<Route path="*" element={<h1>Not found!</h1>} />

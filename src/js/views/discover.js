@@ -19,7 +19,7 @@ export const Discover = () =>{
         {store.planetas.map((elm, index)=>{
             return <Card titulo={elm.name} dimension={elm.dimension} type={elm.type} foto="https://i.pinimg.com/originals/97/86/ec/9786ec883756c755df35a331ff902f3b.png" />
         })}
-        <Card/>
+        
     </div>
     
 </div>

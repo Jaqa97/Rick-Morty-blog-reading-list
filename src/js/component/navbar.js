@@ -55,17 +55,19 @@ export const Navbar = () => {
               </a>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2 text-center"
-              type="search"
-              placeholder="Discover"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
+          <div class="btn-group dropstart">
+            <button
+              type="button"
+              class="btn btn-secondary dropdown-toggle bg-success"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Favoritos <i class="fas fa-heart"></i>
             </button>
-          </form>
+            <ul class="dropdown-menu">
+            <li className="dropdown-item">Personaje<i className="fas fa-trash ms-5"></i></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
